@@ -1,0 +1,33 @@
+.search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 0 15px;
+}
+
+#studioSearch {
+    background: var(--bg3);
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 8px 35px 8px 15px;
+    border-radius: 20px;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8rem;
+    width: 150px;
+    transition: all 0.3s ease;
+}
+
+#studioSearch:focus {
+    width: 220px;
+    border-color: var(--red);
+    box-shadow: 0 0 10px rgba(192, 41, 58, 0.2);
+}
+
+.search-icon {
+    position: absolute;
+    right: 12px;
+    font-size: 0.85rem;
+    pointer-events: none;
+    opacity: 0.5;
+}
